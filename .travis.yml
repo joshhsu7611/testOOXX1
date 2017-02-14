@@ -1,6 +1,10 @@
 language: node_js
 rvm:
  - 6.1.x
+ 
+before_install:
+- npm install
+- npm -g install @angular/cli
 
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
